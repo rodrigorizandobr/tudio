@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "make start",
+    "stop": "make stop",
+    "test": "make test",
+    "test:unit": "make test-unit",
+    "test:int": "make test-int",
+    "test:e2e": "make test-e2e",
+    "build": "make build"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.1"
+  },
+  "dependencies": {
+    "antigravity-awesome-skills": "^7.1.0"
+  }
+}

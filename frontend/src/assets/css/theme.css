@@ -1,0 +1,114 @@
+/* premium-theme.css - Radix-inspired Light Minimal Theme */
+:root {
+  /* Colors - Zinc (Neutrals) */
+  --color-zinc-950: #09090b;
+  --color-zinc-900: #18181b;
+  --color-zinc-800: #27272a;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-600: #52525b;
+  --color-zinc-500: #71717a;
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-200: #e4e4e7;
+  --color-zinc-100: #f4f4f5;
+  --color-zinc-50: #fafafa;
+  --color-white: #ffffff;
+
+  /* Input Background */
+  --bg-input: var(--color-white);
+  --bg-input-hover: var(--color-zinc-50);
+
+  /* Colors - Violet (Primary Brand) */
+  --color-violet-950: #2e1065;
+  --color-violet-900: #4c1d95;
+  --color-violet-800: #5b21b6;
+  --color-violet-700: #6d28d9;
+  --color-violet-600: #7c3aed;
+  --color-violet-500: #8b5cf6;
+  --color-violet-400: #a78bfa;
+  --color-violet-300: #c4b5fd;
+  --color-violet-200: #ddd6fe;
+  --color-violet-100: #ede9fe;
+  --color-violet-50: #f5f3ff;
+
+  /* Semantic Colors - Light Mode */
+  --bg-app: var(--color-zinc-50);
+  --bg-card: var(--color-white);
+  --bg-card-hover: var(--color-zinc-100);
+
+  --text-primary: var(--color-zinc-950);
+  --text-secondary: var(--color-zinc-800);
+  --text-muted: var(--color-zinc-500);
+
+  --border-subtle: var(--color-zinc-300);
+  --border-active: var(--color-zinc-400);
+  --border-focus: var(--color-violet-600);
+
+  --primary-base: var(--color-violet-600);
+  --primary-hover: var(--color-violet-700);
+  --primary-text: #ffffff;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.05), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+  --shadow-glow: 0 0 15px -3px rgba(124, 58, 237, 0.3);
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Utils */
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+.premium-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.premium-card:hover {
+  border-color: var(--border-active);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Typography Overrides for Minimalism */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.025em;
+  font-weight: 600;
+}

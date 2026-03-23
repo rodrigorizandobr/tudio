@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e6]: TudioV2
+    - navigation [ref=e7]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Criar Vídeo" [ref=e10] [cursor=pointer]:
+            - /url: /panel/videos/new
+            - img [ref=e11]
+            - generic [ref=e14]: Criar Vídeo
+        - listitem [ref=e15]:
+          - link "Vídeos" [ref=e16] [cursor=pointer]:
+            - /url: /panel/videos
+            - img [ref=e17]
+            - generic [ref=e20]: Vídeos
+        - listitem [ref=e21]:
+          - link "Agentes" [ref=e22] [cursor=pointer]:
+            - /url: /panel/agents
+            - img [ref=e23]
+            - generic [ref=e26]: Agentes
+        - listitem [ref=e27]:
+          - link "Vozes" [ref=e28] [cursor=pointer]:
+            - /url: /panel/voices
+            - img [ref=e29]
+            - generic [ref=e33]: Vozes
+        - listitem [ref=e34]:
+          - link "Músicas" [ref=e35] [cursor=pointer]:
+            - /url: /panel/music
+            - img [ref=e36]
+            - generic [ref=e40]: Músicas
+        - listitem [ref=e41]:
+          - link "Redes Sociais" [ref=e42] [cursor=pointer]:
+            - /url: /panel/social
+            - img [ref=e43]
+            - generic [ref=e49]: Redes Sociais
+        - listitem [ref=e50]:
+          - link "Configurações" [ref=e51] [cursor=pointer]:
+            - /url: /panel/settings
+            - img [ref=e52]
+            - generic [ref=e55]: Configurações
+        - listitem [ref=e56]:
+          - link "Grupos de Acesso" [ref=e57] [cursor=pointer]:
+            - /url: /panel/admin/groups
+            - img [ref=e58]
+            - generic [ref=e63]: Grupos de Acesso
+    - button "Sair" [ref=e65] [cursor=pointer]:
+      - img [ref=e66]
+      - generic [ref=e69]: Sair
+  - generic [ref=e70]:
+    - banner [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e74]: R
+        - generic [ref=e75]:
+          - generic [ref=e76]: Rodrigo Silva
+          - generic [ref=e77]: Admin
+    - main [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - heading "Meus Vídeos" [level=1] [ref=e82]
+            - paragraph [ref=e83]: Gerencie e gere seus vídeos com IA.
+          - button "Novo Vídeo" [ref=e84] [cursor=pointer]:
+            - img [ref=e86]
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - img
+            - textbox "Buscar por título ou prompt..." [ref=e89]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - img [ref=e92]
+              - combobox [ref=e94] [cursor=pointer]:
+                - option "Todos os Status" [selected]
+                - option "Pendente"
+                - option "Processando"
+                - option "Concluído"
+                - option "Erro"
+            - generic [ref=e95]:
+              - img [ref=e96]
+              - combobox [ref=e99] [cursor=pointer]:
+                - option "Data (Recentes)" [selected]
+                - option "Título (A-Z)"
+                - option "Progresso"
+                - option "Status"
+            - button "Lixeira" [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]:
+                - img [ref=e102]
+                - generic [ref=e105]: Lixeira
+        - generic [ref=e107] [cursor=pointer]:
+          - generic [ref=e109]:
+            - heading "Documentário sobre o futuro da IA e legendas animadas." [level=3] [ref=e110]
+            - generic [ref=e111]:
+              - text: Feb 24, 2026, 01:58 PM • pt-br •
+              - generic [ref=e112]: 0.1 min
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img [ref=e115]
+              - generic [ref=e118]: completed
+            - button "Excluir Vídeo" [ref=e119]:
+              - img [ref=e120]
+            - img [ref=e123]
+```
